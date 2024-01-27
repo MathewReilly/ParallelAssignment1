@@ -1,7 +1,7 @@
 #### Approach
 I decided to use the sieve of Eratosthenes to locate my primes by marking all of
 my composite values. Each thread would be responsible for marking composites in an
-empty boolean vector of size "n".
+boolean vector of size "n" with each value initialized to 0.
 
 #### Correctness
 ##### Correctness of Output:
